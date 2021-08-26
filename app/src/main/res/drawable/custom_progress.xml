@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id = "@android:id/background">
+        <shape android:shape="rectangle">
+            <size android:width="30dp"/>
+            <solid android:color="#220345"/>
+            <corners android:radius="30dp"/>
+        </shape>
+    </item> -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <size android:width="30dp"/>
+                <solid android:color="#83d7ee"/>
+                <corners android:radius="30dp"/>
+            </shape>
+        </clip>
+    </item>
+</selector>
